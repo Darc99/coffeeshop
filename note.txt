@@ -1,0 +1,12 @@
+{nest g co} // {nest generate controller} 
+- {--no-spec} (to stop creation of test file)
+- {modules/abc} (to target specific folders)
+- {--dry-run} (to see simulated command)
+
+
+Using params
+  findOne(@Param() params) {
+    return `This action returns #${params.id} coffee`;
+  }
+
+
