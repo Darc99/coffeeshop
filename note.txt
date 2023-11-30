@@ -12,8 +12,10 @@ Using params
 
 {nest g s} // {nest generate service}   
 
-{nest g module (name)} // {}
+{nest g module coffees} // {}
 
 Providers can inject dependencies
+
+{nest g class coffees/dto/create-coffee.dto --no-spec}
 
 
