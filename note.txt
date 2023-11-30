@@ -10,3 +10,8 @@ Using params
   }
 
 
+{nest g s} // {nest generate service}   
+
+Providers can inject dependencies
+
+
