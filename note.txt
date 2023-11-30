@@ -12,6 +12,8 @@ Using params
 
 {nest g s} // {nest generate service}   
 
+{nest g module (name)} // {}
+
 Providers can inject dependencies
 
 

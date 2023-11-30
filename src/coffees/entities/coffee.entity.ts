@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 export class Coffee {
   id: number;
   name: string;
