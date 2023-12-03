@@ -22,5 +22,13 @@ Providers can inject dependencies
 
  npm i @nestjs/mapped-types (to convert updatecoffee dto to a partial type)
 
+autotransformation???
 
- autotransformation???
+docker-compose up -d (detached mode - to be running in the background)
+
+npm i @nestjs/typeorm typeorm pg
+
+
+
+
+
