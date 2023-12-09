@@ -10,13 +10,16 @@ import { TypeOrmModule } from '@nestjs/typeorm';
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'localhost',
-      port: 5432,
+      // port: 5432,
+      port: 5433,
       username: 'postgres',
-      password: 'pass123',
+      password: 'postgres',
       database: 'postgres',
       autoLoadEntities: true,
       //synchronize - the typeorm entities will be in sync with the db any time the app is ran. Disable in prod
       synchronize: true,
+
+      logging: true,
     }),
   ],
   controllers: [AppController],
