@@ -36,7 +36,7 @@ export class CoffeesService {
       ...updateCoffeeDto,
     });
     if (!coffee) {
-      throw new NotFoundException(`Cffee #${id} not found`);
+      throw new NotFoundException(`Coffee #${id} not found`);
     }
     return this.coffeeRepository.save(coffee);
   }
